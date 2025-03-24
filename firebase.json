@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "U84lO2jIFhvyjkNMBLfq",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/:projectId/**",
+        "destination": "/:projectId/index.html"
+      }
+    ]
+  }
+}
